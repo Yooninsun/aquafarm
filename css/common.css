@@ -27,8 +27,16 @@ body { font-family: 'Catamaran', 'Noto Sans KR', sans-serif;}
 .navwrap h1 > a { display: block; width: 260px; height: 60px; background: url(../image/logo.jpg) no-repeat; background-size: contain;}
 .navwrap #nav { position: absolute; height:90px; top: 0; right: 10px;}
 .navwrap .depth1 > li  { position: relative ; display: inline-block; padding: 29px 30px; font-size:1.2rem ; font-weight: 600; transition: all 1s;}
-.navwrap .depth2 { display: none ;position: absolute; top: 100% ; left: 0; width: 100; padding: 15px 30px; text-align: center; color:rgba(50, 59, 74, 1) ; font-size: 1rem; line-height: 40px; background: #f2f2f2;}
+.navwrap .depth2 { display: none ;position: absolute; top: 100% ; left: 0; width: 100; padding: 15px 30px; text-align: center; color:rgba(50, 59, 74, 1) ; font-size: 1rem; line-height: 40px; background: #f2f2f2; transition: all 1s;}
 .navwrap .depth1 > li:hover .depth2 {display: block; z-index: 999;}
 .navwrap .depth1 > li:hover  {color : #edba65; }
 
 /* 섹션 구역 */
+
+
+/* footer 구역 */
+
+.footer { background-color:rgba(50, 59, 74, 1) ; font-size: 14px;  padding: 50px 0 20px; text-align: center;  }
+.footer .director b {  padding-right: 5px; }
+.footer .director span { margin-left: 15px;  color: #f2f2f2;}
+.footer .copywriter { margin-top: 15px; color: azure;}

@@ -1,47 +1,69 @@
 @charset 'utf-8';
 
-body { font-family: 'Catamaran', 'Noto Sans KR', sans-serif; }
-/*******************<Section1 Slide CSS >********************/
-.section_outer { height: 100%; }
-.section_outer #section { height: 100%; }
-.section_outer .slide_outer { height: 646px; position: relative; }
-.section_outer .slide_inner { height: 100%; }
-.slide_outer .slide { height: 100%; background-size: cover; background-repeat: no-repeat; background-position: center; position: relative;}
-.section_outer .slide.slick-active { animation: zoomOutmain 3s both 0.5s;}
-/* 슬라이드 이미지 작아지면서 들어오기 */
-@-webkit-keyframes zoomOutmain {
-    from {
-      opacity: 1;
-      -webkit-transform: scale3d(1.2, 1.2, 1.2);
-      transform: scale3d(1.2, 1.2, 1.2);
-    }
-    to {
-      opacity: 1;
-      -webkit-transform: scale3d(1, 1, 1);
-      transform: scale3d(1, 1, 1);
-    }
-  }
-  
-  @keyframes zoomOutmain {
-    from {
-      opacity: 1;
-      -webkit-transform: scale3d(1.2, 1.2, 1.2);
-      transform: scale3d(1.2, 1.2, 1.2);
-    }
-  
-    to {
-      opacity: 1;
-      -webkit-transform: scale3d(1, 1, 1);
-      transform: scale3d(1, 1, 1);
-    }
-  }
-.slide_outer .slide1 { background-image: url(../image/main_img01.jpg) ;}
-.slide_outer .slide2 { background-image: url(../image/main_img02.jpg);}
-.slide_outer .slide3 { background-image: url(../image/main_img03.jpg);}
+    body { font-family: 'Catamaran', 'Noto Sans KR', sans-serif; }
+    /*******************<Section1 Slide CSS >********************/
+    .section_outer { height: 100%; }
+    .section_outer #section { height: 100%; }
+    .section_outer .slide_outer { height: 720px; position: relative; }
+    .section_outer .slide_inner { height: 100%; }
+    .slide_outer .slide { height: 100%; background-size: cover; background-repeat: no-repeat; background-position: center; position: relative;}
+    .section_outer .slide.slick-active { animation: zoomOutmain 3s both 0.5s;}
+    /* 슬라이드 이미지 작아지면서 들어오기 */
+    @-webkit-keyframes zoomOutmain {
+        from {
+          opacity: 1;
+          -webkit-transform: scale3d(1.2, 1.2, 1.2);
+          transform: scale3d(1.2, 1.2, 1.2);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+      }
 
-/* < 플레이 버튼> */
-.slide_outer .slick-dots { position: absolute; bottom: 30px;width: 100%; text-align: center;}
-.slide_outer .slick-dots li { display: inline-block; margin: 0 5px; }
-.slide_outer .slick-dots li button { width: 15px; height: 15px; background: #fff; border: none; text-indent: -9999px; overflow: hidden; border-radius: 50%; }
-.section_outer .slick-dots li.slick-active button { width: 40px; border-radius: 50px;}
-.section_outer .plpa { position: absolute; right: 45% ;bottom: 30px; background: none; border: none; font-size: 20px; color: #fff; }
+      @keyframes zoomOutmain {
+        from {
+          opacity: 1;
+          -webkit-transform: scale3d(1.2, 1.2, 1.2);
+          transform: scale3d(1.2, 1.2, 1.2);
+        }
+    
+        to {
+          opacity: 1;
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+      }
+    .slide_outer .slide1 { background-image: url(../image/main_img01.jpg) ;}
+    .slide_outer .slide2 { background-image: url(../image/main_img02.jpg);}
+    .slide_outer .slide3 { background-image: url(../image/main_img03.jpg);}
+
+    /* < 플레이 버튼> */
+    .slide_outer .slick-dots { position: absolute; bottom: 30px; width: 60%; text-align: right;}
+    .slide_outer .slick-dots li { display: inline-block; margin: 0 5px; position: relative; width: 114px; height: 5px; border-radius: 5px; background:rgba(50, 59, 74, 1)}
+    .slide_outer .slick-dots li button { width: 0 px; height: 5px; background: #999; text-indent: -9999px; overflow: hidden; border-radius: 5px; position:  absolute ; top: 0; left: 0; }
+    .section_outer .slick-dots li.slick-active button { animation: lineani 3s both; }
+    @keyframes  lineani {
+        0% { width:0px }
+        100% { width:100%; }
+    }
+    .section_outer .plpa { position: absolute; right: 0 ;bottom: 30px; width: 40%; text-align: left; background: none; border: none; font-size: 20px; color: #fff; }  
+
+   /********<Article1 영역 CSS>*************/
+   .article1 { padding: 50px 30px; position: relative; }
+   .article1 h2 { text-align: center; margin-bottom: 50px; font-size: 40px; }
+   .article1 image { width: 100%; padding:0 20px;}
+   .article1 .marrow  { position:absolute; top:50%; transform:translateY(-50%); background:none; border:none; font-size:50px; color:#999; }
+   .article1 .prevArrow  { left:-30px; z-index:99999999  }   
+   .article1 .nextArrow { right:-30px }   
+   .article1 .slick-dots { position:absolute; bottom:-30px; width:100%; text-align:center  }
+   .article1 .slick-dots  li  {  display:inline-block  }
+   .article1 .slick-dots  li  button { width:15px; height:15px; background:#999; border:none;  text-indent:-9999px; overflow:hidden; border-radius:50%; margin:0 5px; }
+   .article1 .slick-dots   li.slick-active  button { background:#000 }  
+   .article1 .slick-slide {   /* 슬릭슬라이더 안에 있는 모든 슬라이드 */opacity:0.6; transform:scale(0.85); transition:all 0.5s; }
+   .article1 .multi_rolling  .slick-slide.slick-active {  /* 무대 공간에 보여지는  슬라이드, slidesToShow */ opacity:1; } 
+   .article1 .slick-slide.slick-active.slick-current { /* 무대 중앙에 있는 슬라이드 하나 */ /* opacity:1; */ transform:scale(1) }
+  
+
+   
