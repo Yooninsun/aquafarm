@@ -44,4 +44,4 @@ body { font-family: 'Catamaran', 'Noto Sans KR', sans-serif; }
 .slide_outer .slick-dots li { display: inline-block; margin: 0 5px; }
 .slide_outer .slick-dots li button { width: 15px; height: 15px; background: #fff; border: none; text-indent: -9999px; overflow: hidden; border-radius: 50%; }
 .section_outer .slick-dots li.slick-active button { width: 40px; border-radius: 50px;}
-.section_outer .plpa { position: absolute; right: 40% ;bottom: 30px; background: none; border: none; font-size: 20px; color: #fff; }
+.section_outer .plpa { position: absolute; right: 45% ;bottom: 30px; background: none; border: none; font-size: 20px; color: #fff; }
