@@ -28,9 +28,10 @@ $(document).ready(function(){
                 $(".slide_inner").slick("slickPlay")
                 $(this).find("i").removeClass("fa-play").addClass("fa-pause")
         }
+    })
 
     /* 미니 슬라이드 */    
-    /* $("article1 .gallery").slick({
+      $(".article1 .gallery").slick({
         autoplay:true,  // 자동재생
         autoplaySpeed:3000, // 간격시간
         dots:false, // 동그라미버튼
@@ -55,7 +56,7 @@ $(document).ready(function(){
                         centerPadding:"100px",
                         slidesToShow:1, // 보여질슬라이드수(생략가능)
                 }
-        }] */
+        }]
 
 
 
