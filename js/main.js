@@ -59,10 +59,6 @@ $(document).ready(function(){
         }]
 
 
-
-
-
-
 })
 
 
