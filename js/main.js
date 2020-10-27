@@ -33,11 +33,11 @@ $(document).ready(function(){
     /* 미니 슬라이드 */    
       $(".article1 .gallery").slick({
         autoplay:true,  // 자동재생
-        autoplaySpeed:3000, // 간격시간
+        autoplaySpeed:2000, // 간격시간
         dots:false, // 동그라미버튼
         speed:600, // 바뀌는시간(생략가능)
         centerMode:true,
-        centerPadding:"20px",
+        centerPadding:"100px",
         slidesToShow:3, // 보여질슬라이드수(미니슬라이드에 반드시 필요함)
         slidesToScroll:1, // 이동슬라이드수(미니슬라이드에 반드시 필요함 slideToShow값보단 작아야함)
         pauseOnHover:true, // 마우스오버시 멈춤여부(생략가능)

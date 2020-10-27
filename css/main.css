@@ -4,9 +4,9 @@
     /*******************<Section1 Slide CSS >********************/
     .section_outer { height: 100%; }
     .section_outer #section { height: 100%; }
-    .section_outer .slide_outer { height: 720px; position: relative; }
+    .section_outer .slide_outer { height: 500px; position: relative; }
     .section_outer .slide_inner { height: 100%; }
-    .slide_outer .slide { height: 100%; background-size: cover; background-repeat: no-repeat; background-position: center; position: relative;}
+    .slide_outer .slide { height: 100%; background-size: cover; background-repeat: no-repeat; background-position: center center; position: relative;}
     .section_outer .slide.slick-active { animation: zoomOutmain 3s both 0.5s;}
     /* 슬라이드 이미지 작아지면서 들어오기 */
     @-webkit-keyframes zoomOutmain {
@@ -37,7 +37,7 @@
       }
     .slide_outer .slide1 { background-image: url(../image/main_img01.jpg) ;}
     .slide_outer .slide2 { background-image: url(../image/main_img02.jpg);}
-    .slide_outer .slide3 { background-image: url(../image/main_img03.jpg);}
+    .slide_outer .slide3 { background-image: url(../image/main_img03.jpg); }
 
     /* < 플레이 버튼> */
     .slide_outer .slick-dots { position: absolute; bottom: 30px; width: 60%; text-align: right;}
@@ -61,9 +61,11 @@
    .article1 .slick-dots  li  {  display:inline-block  }
    .article1 .slick-dots  li  button { width:15px; height:15px; background:#999; border:none;  text-indent:-9999px; overflow:hidden; border-radius:50%; margin:0 5px; }
    .article1 .slick-dots   li.slick-active  button { background:#000 }  
-   .article1 .slick-slide {   /* 슬릭슬라이더 안에 있는 모든 슬라이드 */opacity:0.6; transform:scale(0.85); transition:all 0.5s; }
-   .article1 .multi_rolling  .slick-slide.slick-active {  /* 무대 공간에 보여지는  슬라이드, slidesToShow */ opacity:1; } 
-   .article1 .slick-slide.slick-active.slick-current { /* 무대 중앙에 있는 슬라이드 하나 */ /* opacity:1; */ transform:scale(1) }
+   .article1 .slick-slide {   /* 슬릭슬라이더 안에 있는 모든 슬라이드 */opacity:0.9; transform:scale(0.85); transition:all 0.5s; }
+   .article1 .multi_rolling  .slick-slide.slick-active {  
+     /* 무대 공간에 보여지는  슬라이드, slidesToShow */ opacity:1; transform: scale(0.8); } 
+   .article1 .slick-slide.slick-active.slick-current {
+      /* 무대 중앙에 있는 슬라이드 하나 */  opacity:1;  transform:scale(1) }
   
 
    
