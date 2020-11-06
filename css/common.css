@@ -1,7 +1,10 @@
 @charset 'utf-8';
 /* 섹션 구역을 제외한  페이지 공통 구역 스타일 */
 
-body { font-family: 'Catamaran', 'Noto Sans KR', sans-serif;}
+body {
+  position: relative; 
+  font-family: 'Catamaran', 'Noto Sans KR', sans-serif;
+}
 
 .row { margin: 0 auto; max-width: 1124px;}
 
@@ -33,3 +36,17 @@ body { font-family: 'Catamaran', 'Noto Sans KR', sans-serif;}
 .footer .director b {  padding-right: 5px; }
 .footer .director span { margin-left: 15px;  color: #f2f2f2;}
 .footer .copywriter { margin-top: 15px; color: azure;}
+
+/*팝업창 박스 */
+
+#popupBox{
+  position: absolute;
+  top: 160px;
+  right: 200px;
+  width: 200px;
+  display: block;
+}
+
+#popupBox .img2 > img {
+  padding: 15px 0;
+}
