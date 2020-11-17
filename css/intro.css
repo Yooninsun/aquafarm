@@ -1,0 +1,143 @@
+.subPage #subPage-banner img {
+  height: 170px; width: 100%;
+}
+
+.subPage .wrapper-contentBox {
+  width: 100%; background:#fff;
+  margin:0 auto; padding-top: 50px;
+}
+
+.subPage .wrapper-contentBox .contentBox h2 {
+  color: #666; font-size: 28px;
+  border-bottom: 1px solid #999;
+  margin-bottom: 50px;
+}
+
+.subPage .wrapper-contentBox .contaniner-tab li {
+  float: left; width: 20%;
+  border: 1px solid #999;
+  text-align: center
+}
+
+.subPage .wrapper-contentBox .contaniner-tab li.on {
+  background:#fcf8f3;
+  border:1px solid #e2be96 ;
+  color: #e2be96;
+}
+
+.subPage .wrapper-contentBox .contentBox .content .part1 {
+  margin: 30px auto 45px; 
+  width: 900px;
+  padding: 30px;
+  background:#f9f0e9;
+  overflow: hidden; 
+}
+
+.subPage .wrapper-contentBox .contentBox .content .part1 .topBox{
+  margin: 0 auto; 
+  width: 680px;
+  height: 180px; 
+}
+.subPage .wrapper-contentBox .contentBox .content  .part1 img {
+  float: left; 
+  vertical-align: top;
+}
+.subPage .wrapper-contentBox .contentBox .content .part1 .textBox {
+  float: left; 
+  vertical-align: top;
+  width: 430px; padding: 15px 20px;
+}
+.subPage .wrapper-contentBox .contentBox .content .part1 .textBox h4 {
+  color:#e5a356;
+  font-size: 32px;
+}
+.subPage .wrapper-contentBox .contentBox .content .part1 .utubeBox {
+  padding-top: 56.25% ; width: 100%;
+  margin :25px 0 40px ;
+  position: relative;
+  clear: both;
+}
+.subPage .wrapper-contentBox .contentBox .content .part1 .utubeBox iframe {
+  position: absolute; top: 0 ; left:0;
+  width: 100%; height: 100%;
+}
+
+.subPage .wrapper-contentBox .contentBox .content .part2 {
+  margin: 35px auto 45px; 
+  width: 900px;
+  padding: 30px; 
+  background:#ecf0f3;
+  overflow: hidden; 
+}
+
+.subPage .wrapper-contentBox .contentBox .content .part2 > h4 {
+  margin: 0 auto 20px;
+  width: 300px; height: 36px;
+  text-align:center;
+  font-size: 22px; color: #fff;
+  background: #4697cc;
+  border-radius: 20px
+}
+.subPage .wrapper-contentBox .contentBox .content .part2 .intro1 {
+  margin: 0 auto 45px; width: 800px;
+  /* overflow: hidden; */
+}
+
+.subPage .wrapper-contentBox .contentBox .content .part2 .intro1 p {
+  float: left;
+  width: 50% ; padding:10px 20px 0 ;
+  font-size: 16px; color: #666;
+}
+.subPage .wrapper-contentBox .contentBox .content .part2 .intro1 > img {
+  float: left;
+  width: 320px; height: 180px;
+  text-align: center;
+}
+
+.subPage .wrapper-contentBox .contentBox .content .part2 .intro2 p,
+.subPage .wrapper-contentBox .contentBox .content .part2 .intro3 p {
+  margin: 0 auto;
+  width: 800px;
+  font-size: 16px; color: #666; text-align: center;
+  margin-bottom: 25px;
+}
+
+.subPage .wrapper-contentBox .contentBox .content .part2 .intro2 .imgBox,
+.subPage .wrapper-contentBox .contentBox .content .part2 .intro3 .imgBox {
+  margin:  0 auto 40px; width:800px; height: 200px;  padding: 0 50px;
+}
+.subPage .wrapper-contentBox .contentBox .content .part2 .intro2 .imgBox img,
+.subPage .wrapper-contentBox .contentBox .content .part2 .intro3 .imgBox img {
+ width: 320px; height: 180px;
+}
+.subPage .wrapper-contentBox .contentBox .content .part2 .intro2 .imgBox img:first-child,
+.subPage .wrapper-contentBox .contentBox .content .part2 .intro3 .imgBox img:first-child {
+  margin-right: 40px;
+}
+
+
+.subPage .wrapper-contentBox .contentBox .content .part2 .intro4 {
+  text-align: center;
+}
+.subPage .wrapper-contentBox .contentBox .content .part2 .intro4 img {
+  width: 320px; height: 180px; margin-bottom: 50px;
+}
+
+/*********Meida page CSS********/
+.content2 .part {
+  width: 900px; 
+  margin: 35px auto 45px;
+  padding: 30px;
+  background-color: #f6f6f8 ;
+}
+
+.content2 .part h4 {
+  font-size: 22px; font-weight: normal; 
+  color: #fff; text-align: center;
+  background: #096a94;
+}
+.content2 .part h4 > span {
+   color: #02f3f2
+  }
+
+/* media page css */  

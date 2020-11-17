@@ -17,6 +17,7 @@ body {
   display: flex; justify-content: flex-end; align-items: flex-end;
   height: 49px ; border-bottom: 1px solid #f2f2f2;}
 #top_menu .l_menu a { padding: 0 7px;}
+#top_menu .l_menu a:hover {color:#d89b54}
 
 .navwrap_bg { position: relative; height: 90px; }
 .navwrap h1 { display: inline-block;position: absolute; left: 10px; top: 50%; transform: translateY(-50%);;}
