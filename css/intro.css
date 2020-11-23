@@ -129,15 +129,24 @@
   margin: 35px auto 45px;
   padding: 30px;
   background-color: #f6f6f8 ;
+  text-align: center;
 }
 
 .content2 .part h4 {
   font-size: 22px; font-weight: normal; 
   color: #fff; text-align: center;
   background: #096a94;
+  padding: 10px; margin:35px 0 15px; 
 }
+
+.content2 .part p {
+  padding: 15px 0; font-size:17px;
+}
+
 .content2 .part h4 > span {
-   color: #02f3f2
+   color: #02f3f2;
   }
 
-/* media page css */  
+  .content2 .part img {
+    margin: 35px 0;
+  }  
