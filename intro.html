@@ -13,7 +13,7 @@
           <li class=""><a href="#">시설현황</a></li>
           <li class=""><a href="#">오시는길</a></li>
         </ul>
-        <div class="content">
+        <div class="conbox content">
           <div class="part1 cf">
             <div class="topBox">
               <img src="image/banner01-art1.png" alt="자이아쿠팜로고이미지">
@@ -64,10 +64,50 @@
             </div>
           </div>
         </div>
+        <div class="conbox content2">
+            <div class="part">
+              <div class="news1">
+                <h4><span>일본신문</span>에 소개된 자이아쿠아팜과 양식 기술</h4>
+                <p>일본 양식 관계자들 자이아쿠아팜에 방문 순환여과식 시스템 견학(2017.4)<br> - 자이아쿠아팜 시스템과 친환경 장어구입</p>
+                <img src="image/media1.png" alt="">
+                <p>(일본양식신문 2017년 4월 방문)</p>
+              </div>
+              <div class="news2">
+                <h4><span>일본신문</span>에 소개된 자이아쿠아팜과 양식 기술</h4>
+                <p>일본 양식 관계자들 자이아쿠아팜에 방문 순환여과식 시스템 견학(2017.4)<br> - 자이아쿠아팜 시스템과 친환경 장어구입</p>
+                <img src="image/media.png" alt="">
+                <p>(일본양식신문 2017년 4월 방문)</p>
+              </div>
+              <div class="news3">
+                <h4><span>YTN </span> 2018년 5월 13일 기사</h4>
+                <p>한국 양식 기술이 일본을 5년 앞선다(2018.5.3. YTN 뉴스)</p>
+                <img src="image/media3.png" alt="">
+              </div>
+              <div class="news4">
+                <h4>'강소기업' <span>20개사 선정</span>기사</h4>
+                <img src="image/media4.png" alt="">
+              </div>
+              <div class="news5">
+                <h4>자이아쿠아팜 사료 연구 기사(동애등에)</h4>
+                <p>자이아쿠아팜 2013년부터 대체사료 연구(농업기술원 박관호 박사에게 동애등에 기술을<br> 전수 받아 유충을 키워 장어사료로 실험) - 실험결과 10% 이상의 효율증대 향후 수직적 확장의 중요 성장 포인트 마련</p>
+                <img src="image/media5.png" alt="">
+                <p>(동애등에 관련 뉴스웨이 기사 2016.8.23)</p>
+              </div>
+            </div>
+        </div>
       </div>
     </div>
 
   </div>
 </div>
+<script>
+  $('.container-tab > li > a').on('click',function(e){
+    e.preventDefault();
+    var num = $(this).parent().index();
+    $(this).parent().addClass('on').siblings().removeClass('on')
+    $('.conbox').hide()
+    $('.conbox').eq(num).show()
+  })
 
-<script src="js/subPage.js"></script>
+</script>
+<!-- <script src="js/subPage.js"></script> -->
