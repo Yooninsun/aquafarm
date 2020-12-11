@@ -6,7 +6,7 @@ body {
   font-family: 'Catamaran', 'Noto Sans KR', sans-serif;
 }
 
-.row { margin: 0 auto; max-width: 1124px;}
+.row { margin: 0 auto; max-width: 1200px;}
 
 .toparr { display: block; position: fixed; right: 20px; bottom: 100px; font-size: 45px; color: rgba( 123,123,123,0.7);}
 .toparr:hover { color: rgba(123,123,123,0.3);}
@@ -51,3 +51,5 @@ body {
 #popupBox .img2 > img {
   padding: 15px 0;
 }
+
+/* 윈도우 */
